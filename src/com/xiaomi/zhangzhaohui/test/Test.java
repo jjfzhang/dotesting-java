@@ -10,5 +10,6 @@ public class Test {
         List<Long> miids = new ArrayList<Long>();
         miids.add(45497343L);
         System.out.println(UUID.randomUUID().toString());
+        System.out.println("hello java!");
     }
 }
