@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd"
+	default-lazy-init="true">
+
+	<!-- 自动扫描 -->
+	<context:annotation-config />
+	<context:component-scan base-package="com.jjfzhang"></context:component-scan>
+	<context:annotation-config />
+		<context:component-scan base-package="com.jjfzhang.rose.world">
+	</context:component-scan>
+	
+	<!-- 以下配置为分表设置 -->
+	<bean id="jade.dataSourceFactory" class="com.xiaomi.bmw.jade.route.database.JadeDataSourceFactory"></bean>
+	<bean id="jade.tableRouteInterpreter" class="com.xiaomi.bmw.jade.route.table.TableRouteInterpreter"></bean>
+	
+</beans>
