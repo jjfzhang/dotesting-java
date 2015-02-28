@@ -83,8 +83,70 @@
     <button type="button" class="close" data-dismiss="alert">×</button>
     <strong>警告!</strong> 你输入的项目不合法！
   </div>
+
+  <form class="form-inline">
+    <div class="form-group">
+      <input type="text" class="form-control" placeholder="请输入你的用户名">
+    </div>
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="请输入你的密码">
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox">记住密码</label>
+    </div>
+    <div class="form-group">
+      <label>用户名：</label>
+    </div>
+    <div class="form-group">
+      <input type="text" class="form-control" placeholder="请输入你的用户名">
+    </div>
+    <button type="submit" class="btn btn-default">登录</button>
+  </form>
+  <form class="form-horizontal" role="form">
+    <div class="form-group">
+      <label for="account" class="col-sm-2 control-label">用户名</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id=" account " placeholder="请输入你的用户名">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for=" password " class="col-sm-2 control-label">密码</label>
+      <div class="col-sm-10">
+        <input type="password" class="form-control" id="password" placeholder="请输入你的密码">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <div class="checkbox"><label><input type="checkbox">记住密码</label></div>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">登录</button>
+      </div>
+     </div>
+  </form>
+  <select>  <option>1</option></select><select multiple="multiple">  <option>1</option>  <option>2</option></select>
+  <textarea class="form-control" rows="3"></textarea>
+  <div class="checkbox"><label><input type="checkbox" value="">是否想赚大钱？</label><label><input type="checkbox" value="">是否想赚大钱？</label></div>
+  <div class="radio">  <label><input type="radio" name="optionsRadios" value="female" checked>请确保，您喜欢女人？</label></div><div class="radio">  <label><input type="radio" name="optionsRadios" value="male">请确保，您喜欢男人？</label></div>
+  <label class="checkbox-inline">  <input type="checkbox" value="体育" id="inlineCheckbox1">体育</label><label class="checkbox-inline">  <input type="checkbox" value="音乐" id=" inlineCheckbox2">音乐</label>…<label class="radio-inline">  <input type="radio" value="未知" id="Radio3">未知</label>
+  <p class="text-muted">JavaScript编程精解</p>
+  <p class="text-primary">JavaScript设计模式</p>
+  <p class="text-success">JavaScript启示录</p>
+  <p class="text-info">Backbone应用开发实战</p>
+  <p class="text-warning">深入理解Bootstrap3</p>
+  <p class="text-danger">编写可测试的JavaScript</p>
+  <div class="btn-toolbar">  <div class="btn-group">    <a class="btn btn-default" href="#"><span class="glyphicon glyphicon-align-left"></span></a>    <a class="btn btn-default" href="#"><span class="glyphicon glyphicon-align-center"></span></a>    <a class="btn btn-default" href="#"><span class="glyphicon glyphicon-align-right"></span></a>    <a class="btn btn-default" href="#"><span class="glyphicon glyphicon-align-justify"></span></a>  </div></div>
+  <div class="btn-group">  <a class="btn btn-default btn-primary" href="#"><span class="glyphicon glyphicon-user"></span>User</a>  <a class="btn btn-default btn-primary dropdown-toggle" data-toggle=" href="#"><span class="caret"></span></a>  <ul class="dropdown-menu">    <li><a href="#"><span class="glyphicon glyphicon-pencil"></span>Edit</a></li>    <li><a href="#"><span class="glyphicon glyphicon-trash"></span>Delete</a></li>    <li><a href="#"><span class="glyphicon glyphicon-ban-circle"></span>Ban</a></li>    <li class="divider"></li>    <li><a href="#">Make admin</a></li>  </ul></div>
+  <div class="control-group">  <div class="controls">    <div class=" input-group">      <span class=" input-group-addon">        <span class="glyphicon glyphicon-envelope"></span>      </span>      <input class="col col-lg-2 form-control" id=" inputIcon" type="text">    </div>  </div></div>
+  <span class="glyphicon glyphicon-glass"></span><span class="glyphicon">&#xe001</span>
   
-  <ul class="nav nav-tabs" id="myTab">  
+  <div class="dropdown">  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">    <li><a tabindex="-1" href="#">Action</a></li>    <li><a tabindex="-1" href="#">Another action</a></li>    <li><a tabindex="-1" href="#">Something else here</a></li>    <li class="divider"></li>    <li><a tabindex="-1" href="#">Separated link</a></li>  </ul></div>
+  <div class="btn-group">  <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">    Success <span class="caret"></span>  </button>  <ul class="dropdown-menu">    <li><a href="#">Action</a></li>    <li><a href="#">Another action</a></li>    <li><a href="#">Something else here</a></li>    <li class="divider"></li>    <li><a href="#">Separated link</a></li>  </ul></div>
+  
+  
+  <ul class="nav nav-tabs" id="myTab">
     <li class="active"><a data-toggle="tab" href="#home">首页</a></li>
     <li class=""><a data-toggle="tab" href="#profile">个人资料</a></li>
     <li class="dropdown">
